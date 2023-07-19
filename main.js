@@ -215,11 +215,11 @@
      conn.ev.off('creds.update', conn.credsUpdate) 
    } 
   
-   conn.welcome = '❖━━━━━━[ ᴡᴇʟᴄᴏᴍᴇ ]━━━━━━❖\n\n┏––––––━━━━━━━━•\n│☘︎ @subject\n┣━━━━━━━━┅┅┅\n│( 👋 Hi @user)\n├[ ɪɴᴛʀᴏ ]—\n│ ɴᴀᴍᴀ: \n│ ᴜᴍᴜʀ: \n│ ɢᴇɴᴅᴇʀ:\n┗––––––━━┅┅┅\n\n––––––┅┅ ᴅᴇsᴄʀɪᴘᴛɪᴏɴ ┅┅––––––\n@desc' 
+   conn.welcome = '❖━━━━━━[ ᴡᴇʟᴄᴏᴍᴇ ]━━━━━━❖\n\n┏––––––━━━━━━━━•\n│☘︎ @subject\n┣━━━━━━━━┅┅┅\n│( 👋 Hi @user)\n├[ ɪɴᴛʀᴏ ]—\n│ ɴᴀᴍᴀ: \n│ ᴀɢᴇ: \n│ ɢᴇɴᴅᴇʀ:\n┗––––––━━┅┅┅\n\n––––––┅┅ ᴅᴇsᴄʀɪᴘᴛɪᴏɴ ┅┅––––––\n@desc' 
    conn.bye = '❖━━━━━━[ ʟᴇᴀᴠɪɴɢ ]━━━━━━❖\nGoodBye  @user 👋😃\n\nSomeone Just Left The Room @subject' 
    conn.spromote = '@user congratulations you are now an admin!' 
    conn.sdemote = '@user You are no longer an admin!' 
-   conn.sDesc = 'Description bdl di gai hy, new description: \n@desc' 
+   conn.sDesc = 'Description has been changed, new description: \n@desc' 
    conn.sSubject = 'Group name has been changed, new name: \n@subject' 
    conn.sIcon = 'Icon updated!' 
    conn.sRevoke = 'Link group updated, new link \n@revoke' 
